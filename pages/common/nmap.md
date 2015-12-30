@@ -14,7 +14,7 @@
 
 `nmap -T4 {{address_or_addresses}}`
 
-- Scan a specific list of ports (use -p- for all ports 1-65535) 
+- Scan a specific list of ports (use -p- for all ports 1-65535)
 
 `nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}`
 
