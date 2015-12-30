@@ -22,4 +22,4 @@
 
 `nmap -sSU {{address_or_addresses}}`
 
-Some features only activate when Nmap is ran with privileges.
+Some features only activate when Nmap is run with privileges.
