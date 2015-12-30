@@ -1,12 +1,17 @@
 # nmap
 
-> Network exploration tool and security / port scanner
+> Network exploration tool and security / port scanner.
+> Some features only activate when Nmap is run with privileges.
 
-- Run a default 1000-port TCP scan if host seems up.
+- Try to determine whether the specified hosts are up and what are their names.
+
+`nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
+
+- Like above, but also run a default 1000-port TCP scan if host seems up.
 
 `nmap {{ip_or_hostname}} {{optional_another_address}}`
 
-- Enable service detection, OS fingerprinting and traceroute.
+- Also enable service detection, OS fingerprinting and traceroute.
 
 `nmap -A {{address_or_addresses}}`
 
@@ -21,5 +26,3 @@
 - Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
 
 `nmap -sSU {{address_or_addresses}}`
-
-Some features only activate when Nmap is run with privileges.
